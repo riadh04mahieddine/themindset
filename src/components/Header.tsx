@@ -1,0 +1,38 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import { audiowide, poppins } from '@/app/fonts';
+
+export default function Header() {
+  return (
+    <div className="py-4">
+      <header className="bg-white rounded-full shadow-lg px-4 py-2 mx-auto max-w-5xl flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <div className="rounded-lg p-1">
+            <Image
+              src="/images/logo.png"
+              alt="Smart Logo"
+              width={70}
+              height={70}
+              className="rounded-full"
+            />
+          </div>
+          <span className={`${audiowide.className} text-2xl font-bold text-gray-800`}>The Mindset</span>
+        </div>
+        <nav className={`hidden md:flex items-center space-x-8 ${audiowide.className}`}>
+          <Link href="#fonctionnalite" className="text-gray-600 hover:text-black font-bold">Fonctionnalité</Link>
+          <Link href="#confidentialite" className="text-gray-600 hover:text-black font-bold">Confidentialité</Link>
+          <Link href="#support" className="text-gray-600 hover:text-black font-bold">Support</Link>
+        </nav>
+        <a href="#download">
+          <Image
+            src="/images/app-store.svg.png"
+            alt="Télécharger dans l'App Store"
+            width={160}
+            height={60}
+          />
+        </a>
+        
+      </header>
+    </div>
+  );
+}
