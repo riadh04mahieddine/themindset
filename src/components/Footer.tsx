@@ -27,7 +27,7 @@ export default function Footer() {
         {/* Navigation Links */}
         <nav className={`${poppins.className} flex gap-6 mb-8 md:mb-0`}>
           <Link href="#fonctionnalite" className="hover:underline">Fonctionnalités</Link>
-          <Link href="#confidentialite" className="hover:underline">Confidentialité</Link>
+          <Link href="/confidentialite" className="hover:underline">Confidentialité</Link>
           <Link href="#support" className="hover:underline">Support</Link>
         </nav>
 
