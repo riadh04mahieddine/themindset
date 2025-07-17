@@ -29,7 +29,7 @@ export default function Support() {
           <div>
             <h2 className="text-2xl font-bold mb-4">Nous Contacter</h2>
             <p className="opacity-90">
-              Pour toute question, problème technique ou suggestion, n'hésitez pas à nous contacter. Notre équipe s'engage à vous répondre dans les plus brefs délais.
+              Pour toute question, problème technique ou suggestion, n&apos;hésitez pas à nous contacter. Notre équipe s&apos;engage à vous répondre dans les plus brefs délais.
             </p>
             <p className="mt-4">
               <span className="font-bold">Adresse e-mail du support :</span>
