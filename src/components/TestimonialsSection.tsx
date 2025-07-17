@@ -13,12 +13,12 @@ const testimonials = [
     rating: 5,
   },
   {
-    quote: '"J\'adore les dilemmes. C\'est comme une salle de sport pour mon cerveau. Je me sens plus affûté dans mes décisions."',
+    quote: '"J&apos;adore les dilemmes. C&apos;est comme une salle de sport pour mon cerveau. Je me sens plus affûté dans mes décisions."',
     name: 'Mehdi B.',
     rating: 5,
   },
   {
-    quote: '"Simple, efficace et direct. SMART va droit au but sans fioritures. C\'est exactement ce dont j\'avais besoin."',
+    quote: '"Simple, efficace et direct. SMART va droit au but sans fioritures. C&apos;est exactement ce dont j&apos;avais besoin."',
     name: 'Alexandre M.',
     rating: 4,
   },
@@ -29,7 +29,7 @@ export default function TestimonialsSection() {
     <section className="w-full text-white py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className={`${audiowide.className} text-4xl md:text-5xl font-bold`}>Ce qu'ils en pensent</h2>
+          <h2 className={`${audiowide.className} text-4xl md:text-5xl font-bold`}>Ce qu&apos;ils en pensent</h2>
           <p className={`${poppins.className} text-lg mt-4 max-w-2xl mx-auto opacity-90`}>
             Nos premiers utilisateurs sont nos meilleurs ambassadeurs.
           </p>

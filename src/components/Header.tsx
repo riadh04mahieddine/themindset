@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { audiowide, poppins } from '@/app/fonts';
+import { audiowide } from '@/app/fonts';
 
 export default function Header() {
   return (

@@ -29,7 +29,7 @@ export default function AdvantagesSection() {
         <div className="text-center mb-16">
           <h2 className={`${audiowide.className} text-4xl md:text-5xl font-bold`}>Deux Capsules, Un Objectif</h2>
           <p className={`${poppins.className} text-lg mt-4 max-w-3xl mx-auto opacity-90`}>
-            Chaque jour, recevez deux notifications conçues pour aiguiser votre esprit d'entrepreneur.
+            Chaque jour, recevez deux notifications conçues pour aiguiser votre esprit d&apos;entrepreneur.
           </p>
         </div>
 

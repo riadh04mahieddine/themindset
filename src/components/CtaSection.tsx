@@ -10,7 +10,7 @@ export default function CtaSection() {
           Prêt à transformer votre mindset ?
         </h2>
         <p className={`${poppins.className} text-lg mt-4 max-w-2xl mx-auto opacity-90`}>
-          Rejoignez des milliers d'esprits ambitieux et commencez à prendre de meilleures décisions dès aujourd'hui. L'aventure ne fait que commencer.
+          Rejoignez la communauté d&apos;entrepreneurs qui ont décidé de prendre le contrôle de leur croissance. C&apos;est votre moment. Aujourd&apos;hui. L&apos;aventure ne fait que commencer.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-6">
           {/* App Store Button */}
