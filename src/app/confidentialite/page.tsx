@@ -15,11 +15,11 @@ export default function Confidentialite() {
           <p>Bienvenue sur The Mindset. Nous nous engageons à protéger la vie privée de nos utilisateurs. Cette politique de confidentialité explique quelles informations nous collectons, comment nous les utilisons et les droits que vous avez sur vos données.</p>
 
           <h2 className="text-2xl font-bold pt-4">2. Informations que nous collectons</h2>
-          <p>Nous pouvons collecter les types d'informations suivants :</p>
+          <p>Nous pouvons collecter les types d&apos;informations suivants :</p>
           <ul className="list-disc list-inside space-y-2 pl-4">
-            <li><strong>Informations fournies par l'utilisateur :</strong> Lors de la création d'un compte, nous pouvons collecter votre nom, votre adresse e-mail et d'autres informations de profil.</li>
-            <li><strong>Contenu généré par l'utilisateur :</strong> Nous collectons les notes, les favoris et les réponses aux dilemmes que vous créez et enregistrez dans l'application.</li>
-            <li><strong>Données d'utilisation :</strong> Nous collectons des informations sur la manière dont vous interagissez avec notre application, telles que les fonctionnalités que vous utilisez et le temps que vous y passez, afin d'améliorer nos services.</li>
+            <li><strong>Informations fournies par l&apos;utilisateur :</strong> Lors de la création d&apos;un compte, nous pouvons collecter votre nom, votre adresse e-mail et d&apos;autres informations de profil.</li>
+            <li><strong>Contenu généré par l&apos;utilisateur :</strong> Nous collectons les notes, les favoris et les réponses aux dilemmes que vous créez et enregistrez dans l&apos;application.</li>
+            <li><strong>Données d&apos;utilisation :</strong> Nous collectons des informations sur la manière dont vous interagissez avec notre application, telles que les fonctionnalités que vous utilisez et le temps que vous y passez, afin d&apos;améliorer nos services.</li>
           </ul>
 
           <h2 className="text-2xl font-bold pt-4">3. Utilisation de vos informations</h2>
@@ -36,20 +36,20 @@ export default function Confidentialite() {
           <ul className="list-disc list-inside space-y-2 pl-4">
             <li>Avec votre consentement explicite.</li>
             <li>Pour se conformer à une obligation légale.</li>
-            <li>Avec des fournisseurs de services tiers qui nous aident à exploiter notre application (par exemple, des hébergeurs de données), sous réserve d'accords de confidentialité stricts.</li>
+            <li>Avec des fournisseurs de services tiers qui nous aident à exploiter notre application (par exemple, des hébergeurs de données), sous réserve d&apos;accords de confidentialité stricts.</li>
           </ul>
 
           <h2 className="text-2xl font-bold pt-4">5. Sécurité de vos données</h2>
-          <p>Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles pour protéger vos informations contre l'accès, la modification ou la destruction non autorisés. Cependant, aucune méthode de transmission sur Internet n'est sûre à 100%.</p>
+          <p>Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles pour protéger vos informations contre l&apos;accès, la modification ou la destruction non autorisés. Cependant, aucune méthode de transmission sur Internet n&apos;est sûre à 100%.</p>
 
           <h2 className="text-2xl font-bold pt-4">6. Vos droits</h2>
-          <p>Conformément à la réglementation en vigueur, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données personnelles. Vous pouvez exercer ces droits en nous contactant à l'adresse ci-dessous.</p>
+          <p>Conformément à la réglementation en vigueur, vous disposez d&apos;un droit d&apos;accès, de rectification, de suppression et de portabilité de vos données personnelles. Vous pouvez exercer ces droits en nous contactant à l&apos;adresse ci-dessous.</p>
 
           <h2 className="text-2xl font-bold pt-4">7. Modifications de cette politique</h2>
           <p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique sur cette page.</p>
 
           <h2 className="text-2xl font-bold pt-4">8. Nous contacter</h2>
-          <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à l'adresse suivante : [Votre adresse e-mail de contact]</p>
+          <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à l&apos;adresse suivante : [Votre adresse e-mail de contact]</p>
         </div>
       </main>
       <Footer />
