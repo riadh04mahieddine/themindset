@@ -21,7 +21,7 @@ export default function Header() {
         <nav className={`hidden md:flex items-center space-x-8 ${audiowide.className}`}>
           <Link href="#fonctionnalite" className="text-gray-600 hover:text-black font-bold">Fonctionnalité</Link>
           <Link href="/confidentialite" className="text-gray-600 hover:text-black font-bold">Confidentialité</Link>
-          <Link href="#support" className="text-gray-600 hover:text-black font-bold">Support</Link>
+          <Link href="/support" className="text-gray-600 hover:text-black font-bold">Support</Link>
         </nav>
         <a href="#download">
           <Image
