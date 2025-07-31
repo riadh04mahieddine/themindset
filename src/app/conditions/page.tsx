@@ -47,7 +47,7 @@ export default function Conditions() {
 
           <h2 className="text-2xl font-bold pt-4">6. Limitation de Responsabilité</h2>
           <p>
-            L&apos;application est fournie "telle quelle" sans garantie d&apos;aucune sorte. Nous ne garantissons pas que l&apos;application sera exempte d&apos;erreurs ou disponible en permanence. 
+            L&apos;application est fournie &quot;telle quelle&quot; sans garantie d&apos;aucune sorte. Nous ne garantissons pas que l&apos;application sera exempte d&apos;erreurs ou disponible en permanence. 
             En aucun cas, nous ne serons responsables des dommages directs, indirects, spéciaux ou consécutifs résultant de l&apos;utilisation ou de l&apos;impossibilité d&apos;utiliser notre application.
           </p>
           <p>
