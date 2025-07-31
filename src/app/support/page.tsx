@@ -1,56 +1,64 @@
 import { audiowide, poppins } from '@/app/fonts';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-
-const faqs = [
-  {
-    question: 'Comment puis-je réinitialiser mon mot de passe ?',
-    answer: 'Pour le moment, la gestion de compte se fait directement via les services d\&apos;authentification (Apple, Google). Il n\&apos;y a pas de mot de passe spécifique à The Mindset.',
-  },
-  {
-    question: 'L\&apos;application est-elle disponible sur Android ?',
-    answer: 'Pas encore. Nous nous concentrons actuellement sur la version iOS. La version Android est dans notre feuille de route et nous vous tiendrons informés dès qu\&apos;elle sera disponible.',
-  },
-  {
-    question: 'Comment puis-je suggérer une nouvelle fonctionnalité ?',
-    answer: 'Nous adorons recevoir des idées de nos utilisateurs ! Envoyez-nous un e-mail à l\&apos;adresse de support ci-dessous avec votre suggestion. Nous lisons attentivement chaque proposition.',
-  },
-];
+import Link from 'next/link';
+import SupportIcon from '@/components/SupportIcon';
 
 export default function Support() {
   return (
     <div className="bg-gradient-to-b from-sky-400 via-sky-800 to-gray-900 min-h-screen text-white">
       <Header />
       <main className="max-w-4xl mx-auto py-16 px-6">
-        <h1 className={`${audiowide.className} text-4xl md:text-5xl font-bold mb-8 text-center`}>Support & Aide</h1>
+        <div className="border-b border-gray-300/30 pb-4 mb-12">
+          <h1 className={`${audiowide.className} text-4xl md:text-5xl font-bold text-white`}>
+            Support - <span className="italic">The Mindset</span>
+          </h1>
+        </div>
         
-        <div className={`${poppins.className} space-y-12 bg-white/10 backdrop-blur-sm p-8 rounded-lg ring-1 ring-white/20`}>
-          {/* Contact Section */}
-          <div>
-            <h2 className="text-2xl font-bold mb-4">Nous Contacter</h2>
-            <p className="opacity-90">
-              Pour toute question, problème technique ou suggestion, n&apos;hésitez pas à nous contacter. Notre équipe s&apos;engage à vous répondre dans les plus brefs délais.
-            </p>
-            <p className="mt-4">
-              <span className="font-bold">Adresse e-mail du support :</span>
-              <a href="mailto:support@themindset.app" className="ml-2 text-sky-300 hover:underline">
-                support@themindset.app
-              </a>
-            </p>
+        <div className="flex flex-col items-center justify-center text-center mb-16">
+          <div className="mb-8">
+            <SupportIcon />
           </div>
-
-          {/* FAQ Section */}
-          <div>
-            <h2 className="text-2xl font-bold mb-6">Questions Fréquemment Posées (FAQ)</h2>
-            <div className="space-y-4">
-              {faqs.map((faq, index) => (
-                <div key={index} className="border-b border-white/20 pb-4">
-                  <h3 className="font-bold text-lg">{faq.question}</h3>
-                  <p className="opacity-80 mt-2">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
+          
+          <h2 className={`${audiowide.className} text-3xl font-bold mb-6`}>Besoin d&apos;aide ?</h2>
+          
+          <p className={`${poppins.className} text-xl max-w-2xl mx-auto`}>
+            Tu rencontres un problème avec l&apos;application The Mindset ou tu as une question ? 
+            On est là pour t&apos;aider !
+          </p>
+        </div>
+        
+        <div className={`${poppins.className} bg-sky-100/10 backdrop-blur-sm p-8 rounded-lg mb-12`}>
+          <h3 className={`${audiowide.className} text-2xl font-bold mb-6 text-center`}>Contacte-nous</h3>
+          
+          <p className="text-center text-lg mb-8">
+            Envoie-nous un email et on te répondra aussi vite que possible :
+          </p>
+          
+          <div className="flex justify-center mb-4">
+            <a 
+              href="mailto:support@themindset.app" 
+              className="bg-black text-white py-4 px-8 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-gray-900 transition-colors duration-200"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 mr-2">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              support@themindset.app
+            </a>
           </div>
+        </div>
+        
+        <p className="text-center text-lg opacity-80 mb-12">
+          Nous répondons généralement sous 1 à 2 jours ouvrés.
+        </p>
+        
+        <div className="flex justify-center">
+          <Link 
+            href="/" 
+            className={`${audiowide.className} text-sky-300 hover:text-white transition-colors duration-200`}
+          >
+            Retour à l&apos;accueil
+          </Link>
         </div>
       </main>
       <Footer />

@@ -49,7 +49,7 @@ export default function Confidentialite() {
           <p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique sur cette page.</p>
 
           <h2 className="text-2xl font-bold pt-4">8. Nous contacter</h2>
-          <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à l&apos;adresse suivante : [Votre adresse e-mail de contact]</p>
+          <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à l&apos;adresse suivante : [support@themindset.app]</p>
         </div>
       </main>
       <Footer />

@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         {/* Logo and Name */}
         <div className="mb-8 md:mb-0">
-          <h3 className={`${audiowide.className} text-2xl font-bold`}>SMART</h3>
+          <h3 className={`${audiowide.className} text-2xl font-bold`}>The Mindset</h3>
           <p className={`${poppins.className} text-sm opacity-70 mt-1`}>Transformez votre mindset.</p>
         </div>
 
@@ -28,6 +28,7 @@ export default function Footer() {
         <nav className={`${poppins.className} flex gap-6 mb-8 md:mb-0`}>
           <Link href="#fonctionnalite" className="hover:underline">Fonctionnalités</Link>
           <Link href="/confidentialite" className="hover:underline">Confidentialité</Link>
+          <Link href="/conditions" className="hover:underline">Conditions</Link>
           <Link href="/support" className="hover:underline">Support</Link>
         </nav>
 
@@ -45,7 +46,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={`${poppins.className} text-center text-sm opacity-50 mt-12 border-t border-white/20 pt-8`}>
-        © ${new Date().getFullYear()} SMART. Tous droits réservés.
+        © ${new Date().getFullYear()} THE MINDSET. Tous droits réservés.
       </div>
     </footer>
   );
