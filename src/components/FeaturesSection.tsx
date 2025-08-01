@@ -5,17 +5,17 @@ const features = [
   {
     title: 'Notifications Inspirantes',
     description: 'Recevez chaque jour des conseils et des citations pour nourrir votre mindset et booster votre motivation.',
-    image: '/images/notif.png',
+    image: '/images/home.png',
   },
   {
     title: 'Favoris & Notes',
     description: 'Gardez une trace des messages qui vous marquent et complétez-les avec vos propres réflexions.',
-    image: '/images/liek-capsule.png',
+    image: '/images/favoris.png',
   },
   {
     title: 'Dilemmes Quotidiens',
     description: 'Mettez votre mindset à l\'épreuve avec des dilemmes qui vous poussent à faire des choix conscients.',
-    image: '/images/home.png',
+    image: '/images/dilemme.png',
   },
 ];
 

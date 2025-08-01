@@ -39,7 +39,7 @@ export default function HeroSection() {
           <div className="absolute -translate-x-2/4 -rotate-12 transition-transform duration-300 hover:rotate-[-15deg] hover:scale-105">
             <div className="rounded-[2.5rem] border-8 border-black bg-black shadow-2xl overflow-hidden">
               <Image
-                src="/images/notif.png"
+                src="/images/onboarding.png"
                 alt="Notification Screenshot"
                 width={270}
                 height={585}
