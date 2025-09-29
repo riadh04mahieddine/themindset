@@ -13,7 +13,12 @@ export default function HeroSection() {
             Reçois chaque jour des notifications inspirantes et des conseils puissants pour booster ta productivité, ta motivation et ton bien-être. Les meilleures routines, et bien plus.
           </p>
           <div className="flex justify-center items-center gap-8">
-            <a href="#download-apple" className="inline-block">
+            <a 
+              href="https://apps.apple.com/us/app/the-mindset/id6748640506?ppid=92a455e3-fc3d-4f3a-b96c-f02967071832" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
               <Image
                 src="/images/app-store.svg.png"
                 alt="Télécharger dans l'App Store"
@@ -22,15 +27,20 @@ export default function HeroSection() {
                 className="object-contain"
               />
             </a>
-            <a href="#download-google" className="inline-block">
+            <div className="inline-block relative">
               <Image
                 src="/images/Google-Play.png"
-                alt="Disponible sur Google Play"
+                alt="Bientôt disponible sur Google Play"
                 width={200}
                 height={54}
-                className="object-contain"
+                className="object-contain opacity-50"
               />
-            </a>
+              <div className="absolute top-3 right-0 translate-x-1/6">
+                <span className={`text-white text-xs font-semibold bg-black/80 px-2 py-1 rounded-full shadow-lg ${poppins.className}`}>
+                  Bientôt disponible
+                </span>
+              </div>
+            </div>
           </div>
         </div>
         

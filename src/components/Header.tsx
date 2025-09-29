@@ -23,7 +23,11 @@ export default function Header() {
           <Link href="/confidentialite" className="text-gray-600 hover:text-black font-bold">Confidentialité</Link>
           <Link href="/support" className="text-gray-600 hover:text-black font-bold">Support</Link>
         </nav>
-        <a href="#download">
+        <a 
+          href="https://apps.apple.com/us/app/the-mindset/id6748640506?ppid=92a455e3-fc3d-4f3a-b96c-f02967071832"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             src="/images/app-store.svg.png"
             alt="Télécharger dans l'App Store"

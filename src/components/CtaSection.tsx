@@ -14,7 +14,12 @@ export default function CtaSection() {
         </p>
         <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-6">
           {/* App Store Button */}
-          <Link href="#" className="inline-block transition-transform duration-300 hover:scale-105">
+          <a 
+            href="https://apps.apple.com/us/app/the-mindset/id6748640506?ppid=92a455e3-fc3d-4f3a-b96c-f02967071832"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block transition-transform duration-300 hover:scale-105"
+          >
             <Image
               src="/images/app-store.svg.png"
               alt="Download on the App Store"
@@ -22,7 +27,7 @@ export default function CtaSection() {
               height={60}
               className="object-contain"
             />
-          </Link>
+          </a>
           {/* Google Play Button */}
           <div className="relative flex flex-col items-center">
             <Link href="#" className="inline-block transition-transform duration-300 hover:scale-105">
