@@ -13,14 +13,14 @@ export default function Header() {
               alt="Smart Logo"
               width={70}
               height={70}
-              className="rounded-full"
+              className="rounded-2xl"
             />
           </div>
           <span className={`${audiowide.className} text-2xl font-bold text-gray-800`}>The Mindset</span>
         </div>
         <nav className={`hidden md:flex items-center space-x-8 ${audiowide.className}`}>
-          <Link href="#fonctionnalite" className="text-gray-600 hover:text-black font-bold">Fonctionnalité</Link>
-          <Link href="/confidentialite" className="text-gray-600 hover:text-black font-bold">Confidentialité</Link>
+          <Link href="#fonctionnalite" className="text-gray-600 hover:text-black font-bold">Features</Link>
+          <Link href="/confidentialite" className="text-gray-600 hover:text-black font-bold">Privacy</Link>
           <Link href="/support" className="text-gray-600 hover:text-black font-bold">Support</Link>
         </nav>
         <a 

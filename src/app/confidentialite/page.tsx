@@ -4,52 +4,52 @@ import Footer from '@/components/Footer';
 
 export default function Confidentialite() {
   return (
-    <div className="bg-gradient-to-b from-sky-400 via-sky-800 to-gray-900 min-h-screen text-white">
+    <div className="bg-stone-100 min-h-screen text-black">
       <Header />
       <main className="max-w-4xl mx-auto py-16 px-6">
-        <h1 className={`${audiowide.className} text-4xl md:text-5xl font-bold mb-8 text-center`}>Politique de Confidentialité</h1>
-        <div className={`${poppins.className} space-y-6 bg-white/10 backdrop-blur-sm p-8 rounded-lg ring-1 ring-white/20`}>
-          <p>Dernière mise à jour : 18 juillet 2025</p>
+        <h1 className={`${audiowide.className} text-4xl md:text-5xl font-bold mb-8 text-center`}>Privacy Policy</h1>
+        <div className={`${poppins.className} space-y-6 bg-white shadow-xl p-8 rounded-lg ring-1 ring-black/5`}>
+          <p>Last updated: July 18, 2025</p>
 
           <h2 className="text-2xl font-bold pt-4">1. Introduction</h2>
-          <p>Bienvenue sur The Mindset. Nous nous engageons à protéger la vie privée de nos utilisateurs. Cette politique de confidentialité explique quelles informations nous collectons, comment nous les utilisons et les droits que vous avez sur vos données.</p>
+          <p>Welcome to The Mindset. We are committed to protecting the privacy of our users. This privacy policy explains what information we collect, how we use it, and the rights you have regarding your data.</p>
 
-          <h2 className="text-2xl font-bold pt-4">2. Informations que nous collectons</h2>
-          <p>Nous pouvons collecter les types d&apos;informations suivants :</p>
+          <h2 className="text-2xl font-bold pt-4">2. Information we collect</h2>
+          <p>We may collect the following types of information:</p>
           <ul className="list-disc list-inside space-y-2 pl-4">
-            <li><strong>Informations fournies par l&apos;utilisateur :</strong> Lors de la création d&apos;un compte, nous pouvons collecter votre nom, votre adresse e-mail et d&apos;autres informations de profil.</li>
-            <li><strong>Contenu généré par l&apos;utilisateur :</strong> Nous collectons les notes, les favoris et les réponses aux dilemmes que vous créez et enregistrez dans l&apos;application.</li>
-            <li><strong>Données d&apos;utilisation :</strong> Nous collectons des informations sur la manière dont vous interagissez avec notre application, telles que les fonctionnalités que vous utilisez et le temps que vous y passez, afin d&apos;améliorer nos services.</li>
+            <li><strong>User-provided information:</strong> When creating an account, we may collect your name, email address, and other profile details.</li>
+            <li><strong>User-generated content:</strong> We collect notes, favorites, and dilemma responses that you create and save in the app.</li>
+            <li><strong>Usage data:</strong> We collect information about how you interact with our app, such as the features you use and the time spent, to help improve our services.</li>
           </ul>
 
-          <h2 className="text-2xl font-bold pt-4">3. Utilisation de vos informations</h2>
-          <p>Nous utilisons les informations collectées pour :</p>
+          <h2 className="text-2xl font-bold pt-4">3. How we use your information</h2>
+          <p>We use the collected information to:</p>
           <ul className="list-disc list-inside space-y-2 pl-4">
-            <li>Fournir, maintenir et améliorer notre application.</li>
-            <li>Personnaliser votre expérience.</li>
-            <li>Communiquer avec vous, notamment pour vous envoyer des notifications et des mises à jour.</li>
-            <li>Assurer la sécurité de notre plateforme.</li>
+            <li>Provide, maintain, and improve our application.</li>
+            <li>Personalize your experience.</li>
+            <li>Communicate with you, including sending notifications and updates.</li>
+            <li>Ensure the security of our platform.</li>
           </ul>
 
-          <h2 className="text-2xl font-bold pt-4">4. Partage de vos informations</h2>
-          <p>Nous ne partageons pas vos informations personnelles avec des tiers, sauf dans les cas suivants :</p>
+          <h2 className="text-2xl font-bold pt-4">4. Sharing your information</h2>
+          <p>We do not share your personal information with third parties, except in the following cases:</p>
           <ul className="list-disc list-inside space-y-2 pl-4">
-            <li>Avec votre consentement explicite.</li>
-            <li>Pour se conformer à une obligation légale.</li>
-            <li>Avec des fournisseurs de services tiers qui nous aident à exploiter notre application (par exemple, des hébergeurs de données), sous réserve d&apos;accords de confidentialité stricts.</li>
+            <li>With your explicit consent.</li>
+            <li>To comply with a legal obligation.</li>
+            <li>With third-party service providers that help us operate the app (e.g., data hosting), under strict confidentiality agreements.</li>
           </ul>
 
-          <h2 className="text-2xl font-bold pt-4">5. Sécurité de vos données</h2>
-          <p>Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles pour protéger vos informations contre l&apos;accès, la modification ou la destruction non autorisés. Cependant, aucune méthode de transmission sur Internet n&apos;est sûre à 100%.</p>
+          <h2 className="text-2xl font-bold pt-4">5. Data security</h2>
+          <p>We implement technical and organizational security measures to protect your information against unauthorized access, alteration, or destruction. However, no method of transmission over the Internet is 100% secure.</p>
 
-          <h2 className="text-2xl font-bold pt-4">6. Vos droits</h2>
-          <p>Conformément à la réglementation en vigueur, vous disposez d&apos;un droit d&apos;accès, de rectification, de suppression et de portabilité de vos données personnelles. Vous pouvez exercer ces droits en nous contactant à l&apos;adresse ci-dessous.</p>
+          <h2 className="text-2xl font-bold pt-4">6. Your rights</h2>
+          <p>In accordance with applicable regulations, you have the right to access, correct, delete, and port your personal data. You can exercise these rights by contacting us at the address below.</p>
 
-          <h2 className="text-2xl font-bold pt-4">7. Modifications de cette politique</h2>
-          <p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique sur cette page.</p>
+          <h2 className="text-2xl font-bold pt-4">7. Changes to this policy</h2>
+          <p>We may update this privacy policy from time to time. We will inform you of any changes by posting the new policy on this page.</p>
 
-          <h2 className="text-2xl font-bold pt-4">8. Nous contacter</h2>
-          <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à l&apos;adresse suivante : [support@themindset.app]</p>
+          <h2 className="text-2xl font-bold pt-4">8. Contact us</h2>
+          <p>If you have any questions about this privacy policy, please contact us at: [support@themindset.app]</p>
         </div>
       </main>
       <Footer />

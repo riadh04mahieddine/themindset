@@ -3,14 +3,14 @@ import { audiowide, poppins } from '@/app/fonts';
 
 export default function HeroSection() {
   return (
-    <section className="w-full text-white pt-12 pb-0 px-4">
+    <section className="w-full pt-12 pb-0 px-4">
       <div className="max-w-6xl mx-auto flex flex-col items-center">
         <div className="text-center mb-10">
           <h1 className={`text-5xl md:text-6xl font-bold mb-5 ${audiowide.className}`}>
-            Transforme ton quotidien avec le bon mindset
+            Transform your daily life with the right mindset
           </h1>
           <p className={`text-base md:text-lg max-w-3xl mx-auto mb-8 font-light ${poppins.className}`}>
-            Reçois chaque jour des notifications inspirantes et des conseils puissants pour booster ta productivité, ta motivation et ton bien-être. Les meilleures routines, et bien plus.
+            Receive daily inspirational notifications and powerful advice to boost your productivity, motivation, and well-being. The best routines, and so much more.
           </p>
           <div className="flex justify-center items-center gap-8">
             <a 
@@ -21,7 +21,7 @@ export default function HeroSection() {
             >
               <Image
                 src="/images/app-store.svg.png"
-                alt="Télécharger dans l'App Store"
+                alt="Download on the App Store"
                 width={180}
                 height={54}
                 className="object-contain"
@@ -30,14 +30,14 @@ export default function HeroSection() {
             <div className="inline-block relative">
               <Image
                 src="/images/Google-Play.png"
-                alt="Bientôt disponible sur Google Play"
+                alt="Coming soon on Google Play"
                 width={200}
                 height={54}
                 className="object-contain opacity-50"
               />
               <div className="absolute top-3 right-0 translate-x-1/6">
                 <span className={`text-white text-xs font-semibold bg-black/80 px-2 py-1 rounded-full shadow-lg ${poppins.className}`}>
-                  Bientôt disponible
+                  Coming soon
                 </span>
               </div>
             </div>
@@ -49,7 +49,7 @@ export default function HeroSection() {
           <div className="absolute -translate-x-2/4 -rotate-12 transition-transform duration-300 hover:rotate-[-15deg] hover:scale-105">
             <div className="rounded-[2.5rem] border-8 border-black bg-black shadow-2xl overflow-hidden">
               <Image
-                src="/images/onboarding.png"
+                src="/images/icone.png"
                 alt="Notification Screenshot"
                 width={270}
                 height={585}
@@ -75,7 +75,7 @@ export default function HeroSection() {
           <div className="absolute translate-x-2/4 rotate-12 transition-transform duration-300 hover:rotate-[15deg] hover:scale-105">
             <div className="rounded-[2.5rem] border-8 border-black bg-black shadow-2xl overflow-hidden">
               <Image
-                src="/images/liek-capsule.png"
+                src="/images/theme.png"
                 alt="Like Capsule Screenshot"
                 width={270}
                 height={585}

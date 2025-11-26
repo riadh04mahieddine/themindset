@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-400 via-sky-800 to-gray-900">
+    <div className="min-h-screen bg-stone-100 text-black">
       <div className="container mx-auto py-4 px-4">
         <Header />
       </div>

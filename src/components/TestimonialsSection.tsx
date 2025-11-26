@@ -8,17 +8,17 @@ const StarIcon = () => (
 
 const testimonials = [
   {
-    quote: '"Une vraie claque ! Les capsules du matin ont changé ma façon de voir les choses. Indispensable pour tout entrepreneur."',
+    quote: '"A real game changer! The morning capsules have shifted how I see things. Essential for any entrepreneur."',
     name: 'Sarah L.',
     rating: 5,
   },
   {
-    quote: '"J&apos;adore les dilemmes. C&apos;est comme une salle de sport pour mon cerveau. Je me sens plus affûté dans mes décisions."',
+    quote: '"I love the dilemmas. It\'s like a gym for my brain. I feel sharper in my decisions."',
     name: 'Mehdi B.',
     rating: 5,
   },
   {
-    quote: '"Simple, efficace et direct. SMART va droit au but sans fioritures. C&apos;est exactement ce dont j&apos;avais besoin."',
+    quote: '"Simple, effective, and straight to the point. The Mindset delivers without fluff. Exactly what I needed."',
     name: 'Alexandre M.',
     rating: 4,
   },
@@ -26,18 +26,18 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className="w-full text-white py-20 px-4">
+    <section className="w-full py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className={`${audiowide.className} text-4xl md:text-5xl font-bold`}>Ce qu&apos;ils en pensent</h2>
+          <h2 className={`${audiowide.className} text-4xl md:text-5xl font-bold`}>What our users say</h2>
           <p className={`${poppins.className} text-lg mt-4 max-w-2xl mx-auto opacity-90`}>
-            Nos premiers utilisateurs sont nos meilleurs ambassadeurs.
+            Our earliest users are our strongest ambassadors.
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 flex flex-col justify-between shadow-lg ring-1 ring-white/20">
+            <div key={index} className="bg-white rounded-xl p-6 flex flex-col justify-between shadow-xl ring-1 ring-black/5">
               <p className={`${poppins.className} text-base italic mb-6 opacity-90`}>{testimonial.quote}</p>
               <div>
                 <div className="flex mb-2">

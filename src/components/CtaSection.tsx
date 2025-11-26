@@ -4,13 +4,13 @@ import { audiowide, poppins } from '@/app/fonts';
 
 export default function CtaSection() {
   return (
-    <section className="w-full text-white">
+    <section className="w-full">
       <div className="max-w-4xl mx-auto text-center py-20 px-4">
         <h2 className={`${audiowide.className} text-4xl md:text-5xl font-bold`}>
-          Prêt à transformer votre mindset ?
+          Ready to transform your mindset?
         </h2>
         <p className={`${poppins.className} text-lg mt-4 max-w-2xl mx-auto opacity-90`}>
-          Rejoignez la communauté d&apos;entrepreneurs qui ont décidé de prendre le contrôle de leur croissance. C&apos;est votre moment. Aujourd&apos;hui. L&apos;aventure ne fait que commencer.
+          Join the community of entrepreneurs who have decided to take control of their growth. This is your moment. Today. The journey is just beginning.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-6">
           {/* App Store Button */}
@@ -39,7 +39,7 @@ export default function CtaSection() {
                 className="object-contain opacity-50 cursor-not-allowed"
               />
             </Link>
-            <span className={`${poppins.className} text-xs text-white/70 mt-1`}>Bientôt disponible</span>
+            <span className={`${poppins.className} text-xs text-gray-500 mt-1`}>Coming soon</span>
           </div>
         </div>
       </div>

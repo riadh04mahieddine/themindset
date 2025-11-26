@@ -6,11 +6,11 @@ import SupportIcon from '@/components/SupportIcon';
 
 export default function Support() {
   return (
-    <div className="bg-gradient-to-b from-sky-400 via-sky-800 to-gray-900 min-h-screen text-white">
+    <div className="bg-stone-100 min-h-screen text-black">
       <Header />
       <main className="max-w-4xl mx-auto py-16 px-6">
-        <div className="border-b border-gray-300/30 pb-4 mb-12">
-          <h1 className={`${audiowide.className} text-4xl md:text-5xl font-bold text-white`}>
+        <div className="border-b border-gray-300 pb-4 mb-12">
+          <h1 className={`${audiowide.className} text-4xl md:text-5xl font-bold`}>
             Support - <span className="italic">The Mindset</span>
           </h1>
         </div>
@@ -28,7 +28,7 @@ export default function Support() {
           </p>
         </div>
         
-        <div className={`${poppins.className} bg-sky-100/10 backdrop-blur-sm p-8 rounded-lg mb-12`}>
+        <div className={`${poppins.className} bg-white shadow-xl p-8 rounded-lg mb-12 ring-1 ring-black/5`}>
           <h3 className={`${audiowide.className} text-2xl font-bold mb-6 text-center`}>Contacte-nous</h3>
           
           <p className="text-center text-lg mb-8">
@@ -38,7 +38,7 @@ export default function Support() {
           <div className="flex justify-center mb-4">
             <a 
               href="mailto:support@themindset.app" 
-              className="bg-black text-white py-4 px-8 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-gray-900 transition-colors duration-200"
+              className="bg-black text-white py-4 px-8 rounded-lg flex items-center justify-center text-lg font-medium hover:bg-gray-800 transition-colors duration-200"
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 mr-2">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -55,7 +55,7 @@ export default function Support() {
         <div className="flex justify-center">
           <Link 
             href="/" 
-            className={`${audiowide.className} text-sky-300 hover:text-white transition-colors duration-200`}
+            className={`${audiowide.className} text-sky-600 hover:text-black transition-colors duration-200`}
           >
             Retour à l&apos;accueil
           </Link>

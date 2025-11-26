@@ -9,26 +9,26 @@ interface SocialIconProps {
 }
 
 const SocialIcon = ({ href, children }: SocialIconProps) => (
-  <a href={href} target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">
+  <a href={href} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-black transition-colors">
     {children}
   </a>
 );
 
 export default function Footer() {
   return (
-    <footer className="w-full text-white pt-16 pb-8 px-4">
+    <footer className="w-full pt-16 pb-8 px-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         {/* Logo and Name */}
         <div className="mb-8 md:mb-0">
           <h3 className={`${audiowide.className} text-2xl font-bold`}>The Mindset</h3>
-          <p className={`${poppins.className} text-sm opacity-70 mt-1`}>Transformez votre mindset.</p>
+          <p className={`${poppins.className} text-sm opacity-70 mt-1`}>Transform your mindset.</p>
         </div>
 
         {/* Navigation Links */}
         <nav className={`${poppins.className} flex gap-6 mb-8 md:mb-0`}>
-          <Link href="#fonctionnalite" className="hover:underline">Fonctionnalités</Link>
-          <Link href="/confidentialite" className="hover:underline">Confidentialité</Link>
-          <Link href="/conditions" className="hover:underline">Conditions</Link>
+          <Link href="#fonctionnalite" className="hover:underline">Features</Link>
+          <Link href="/confidentialite" className="hover:underline">Privacy</Link>
+          <Link href="/conditions" className="hover:underline">Terms</Link>
           <Link href="/support" className="hover:underline">Support</Link>
         </nav>
 
@@ -45,8 +45,8 @@ export default function Footer() {
           </SocialIcon>
         </div>
       </div>
-      <div className={`${poppins.className} text-center text-sm opacity-50 mt-12 border-t border-white/20 pt-8`}>
-        © ${new Date().getFullYear()} THE MINDSET. Tous droits réservés.
+      <div className={`${poppins.className} text-center text-sm opacity-50 mt-12 border-t border-black/10 pt-8`}>
+        © ${new Date().getFullYear()} THE MINDSET. All rights reserved.
       </div>
     </footer>
   );
