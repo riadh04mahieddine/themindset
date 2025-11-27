@@ -14,7 +14,7 @@ export default function HeroSection() {
           </p>
           <div className="flex justify-center items-center gap-8">
             <a 
-              href="https://apps.apple.com/us/app/the-mindset/id6748640506?ppid=92a455e3-fc3d-4f3a-b96c-f02967071832" 
+              href="https://apps.apple.com/app/the-mindset/id6748640506" 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block"
